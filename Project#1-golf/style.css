@@ -1,0 +1,417 @@
+*{
+  text-decoration: none;
+  box-sizing:border-box
+
+}
+body, html {
+  height: 100%;
+   margin: 0; 
+   
+  /* font-family:sans-serif; */
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+ }
+
+/* -------------------------Navbar--------------------------------- */
+
+.navbar{
+background-color: rgb(247, 247, 255);
+padding-top: 10px;
+padding-bottom: 10px;
+
+padding-right: 20px;
+
+
+
+}
+.navdiv{
+display: flex;
+align-items: center;
+justify-content:space-between;
+}
+.logo:hover{
+  cursor: pointer;
+}
+.logo{
+  color: rgb(5, 5, 5);
+}
+#iconav{
+  font-size: 60px;
+}
+.logo span{
+  font-size: 50px;
+  font-weight: 500;
+}
+.logo small{
+  
+  font-size: 20px;
+  display: block;
+  margin-left: 60px;
+  font-weight: bold;
+}
+.gh li{
+  list-style: none;
+  display: inline-block;
+}
+li a{
+  color: rgb(8, 8, 8);
+  font-size: 27px;
+  font-weight: 300;
+  margin-right: 25px;
+  font-weight: 549;
+}
+.butnav{
+  background-color: rgb(164 195 219);
+  border: none;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 130px;
+ 
+}
+.butnav a{
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 20px;
+
+}
+button :hover{
+  cursor: pointer;
+  color: black;
+}
+li a:hover{
+  color:rgb(164 195 219);
+}
+/* ------------------------home page------------------------------------ */
+#home{
+  background-image: url("images/gg.jpg");
+  height: 100%; 
+  /* border-radius: 5px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+ }
+
+#hom1 , #hom2{
+  float:left;
+  width: 50%;
+  padding: 250px;
+
+}
+.tex1{
+ font-size: 50px;
+ width: max-content;
+}
+.but{
+  background-color: rgb(126 169 203);
+  border: none;
+ border-radius: 30px;
+ padding: 20px;
+ width: 155px;
+}
+.but a{
+  color:black;
+  font-size: 20px;
+  font-weight:bold;
+}
+.but :active{
+  color: white;
+}
+iframe{
+  border:none;
+  border-radius: 20px;
+ }
+ .mem{
+  display: inline;
+  font-size: 25px;
+  padding-left: 50px;
+  font-weight:bold;
+  color: black}
+
+ .mem:hover{
+  cursor: pointer;
+  color: rgb(83, 83, 138);
+ }
+ 
+
+/* ---------------------------About page------------------------------ */
+
+.about{
+  text-align: center;
+  font-size: 50px;
+}
+.tex2{
+ 
+  font-size: 35px;
+  
+}
+#about{
+  width: 100%;
+  height:70%;
+}
+.par1{
+  text-align: left;
+  font-size: 20px;
+ 
+  
+  
+ 
+} 
+#one{
+  padding-left: 300px;
+}
+.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+ #one , #two{
+   
+  width: 50%;
+  
+ 
+
+} 
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  
+  
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  
+  
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* -webkit-backface-visibility: hidden; */
+  backface-visibility: hidden;
+  border:2px solid rgb(226, 218, 218);
+  border-radius: 20px;
+}
+.flip-card-back {
+  background-color: rgb(164 195 219);
+  color: white;
+  transform: rotateY(180deg);
+} 
+#two{
+  display: flex;
+  justify-content:space-around;
+}
+
+.icons{
+  font-size: 50px;
+   color: inherit;
+  border: 1px solid #ccc;
+  border-radius: 50px; 
+  cursor: pointer; 
+} 
+
+/* ---------------------------newletter page------------------------------ */
+
+#news{
+  background-image: url("images/new.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  width:100%;
+  height: 100%;
+  padding: 50px;
+}
+.box{
+  max-width:900px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 300px ;
+  opacity: 0.6;
+  margin-top: 10%;
+  
+ 
+}
+.texnew{
+  float: left;
+  margin-left:40px;
+  
+  font-size: 50px;
+}
+.par2{
+  font-size: 20px;
+  float: left;
+  margin-left:40px;
+}
+.butbox{
+  background-color: rgb(22, 119, 26);
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+
+  
+}
+.butbox:hover{
+  background-color: rgb(31, 66, 39);
+}
+.butbox a{
+  color: rgb(250, 240, 240);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*----------------------Membership page------------------------------------ */
+#membership{
+  width: 100%;
+  height: 80%;
+}
+.membershiptitle{
+  text-align: center;
+  font-size: 50px;
+}
+#rowmem{
+  display: flex;
+  justify-content: space-around;
+}
+table {
+  font-family: arial, sans-serif;
+  border: 1px soild black;
+ 
+  width: 700px;
+  height: 400px;
+ 
+  font-size: 25px;
+    border-radius: 3px;
+  
+}
+th{
+  background-color:  rgb(164 195 219); 
+  
+}
+td, th {
+
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(odd) {
+  background-color: #deeefc;
+}
+.tex4{
+  font-size: 30px;
+}
+.boox{
+  width:600px;
+  height: 400px;
+  background-color:  rgb(164 195 219); 
+  border-radius: 20px;
+ 
+}
+.join{
+  margin-left: 50px;
+  padding-top: 30px;
+  font-size: 25px;
+}
+#fname ,#email{
+  width: 80%;
+  height: 60px;
+  margin-left: 50px;
+  padding: 10px;
+  border:none;
+  border-radius: 10px;
+}
+.button{
+  width: 80%;
+  height: 10%;
+  margin-left: 50px;
+  padding: 10px;
+  border:none;
+  border-radius: 10px;
+  background-color: #deeefc; 
+  font-size: 20px;
+}
+.button a :hover{
+  cursor: pointer;
+  
+}
+.button:active{
+  background-color: rgb(113, 113, 243);
+}
+#tt{
+  margin-left: 50px;
+  padding: 10px;
+  border:none;
+  border-radius: 10px;
+}
+
+
+/* ------------------------------------contactus page--------------------------------------- */
+#contactus{
+  background-color: #eff9fa;
+  width: 100%;
+  height: 100%;
+
+}
+.tex6{
+  text-align: center;
+  font-size: 50px ;
+  color: rgb(0, 0, 0);
+
+}
+.boox2{
+  width:600px;
+  height: 600px;
+  background-color:   rgb(164 195 219); 
+  
+  border-radius: 20px;
+ 
+}
+.buttonr{
+  width: 80%;
+  height: 10%;
+  margin-left: 50px;
+  padding: 20px;
+  border:none;
+  border-radius: 10px;
+  background-color: #deeefc; 
+  font-size: 20px;
+}
+.buttonr a :hover{
+  cursor: pointer;
+  
+}
+.buttonr:active{
+  background-color: rgb(113, 113, 243);
+}
+
+ /* ------------------------------------footer page--------------------------------------- */
+
+#data{
+  margin-top: 60px;
+}
+
+.soical{
+
+  border-radius: 50px; 
+  cursor: pointer; 
+  padding: 15px;
+  width: 100%;
+}
+.ico{
+  font-size: 50px;
+  padding-left: 40px;
+}
+.oo{
+  font-size: 40px;
+}
+#data ul li{
+  font-size: 40px;
+}
